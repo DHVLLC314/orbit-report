@@ -14,4 +14,8 @@ export class Satellite {
         this. operational = operational;
         
     }
+    shouldShowWarning () :boolean {
+        return this.type === 'Space Debris';
+    }
+
 }
